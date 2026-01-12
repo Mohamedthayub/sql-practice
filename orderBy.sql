@@ -35,9 +35,9 @@ ORDER BY `SALARY`;
 
 
 /*
-Interview one-liner 🎯
 
-ORDER BY is used to sort query results in ascending or descending order.
+-Interviewq one-liner 🎯
+-ORDER BY is used to sort query results in ascending or descending order.
 */
 
 SELECT  * FROM `EMPLOYEE`;
@@ -45,4 +45,19 @@ SELECT  * FROM `EMPLOYEE`;
 INSERT INTO EMPLOYEE VALUES 
 (10,"MOHAMED","PENTESTING ENGINEER",200000);
 
+SELECT * FROM  `EMPLOYEE` 
+ORDER BY 
+    CASE  `JOB_DESCRIPTION`
+    WHEN  'SOFTWARE ENGINEER' THEN  1
+    WHEN  'UI UX ENGINEER' THEN 2
+    WHEN  'QA ENGINEER' THEN 3
+    ELSE  4
+
+    END;
+
+/*
+🔟 Interview-ready answer 🎯
+
+Custom ORDER BY is used to sort data based on business priority using CASE expressions.
+*/
 DESCRIBE EMPLOYEE;
