@@ -40,7 +40,11 @@ SELECT MAX(`SALARY`) FROM `EMPLOYEE`;
 -- TO CALCULATE MINIMUM SALARY;
 SELECT MIN(`SALARY`) FROM `EMPLOYEE`;
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 1db7214 (i learnt string functions and done a exercise)
 -- STRING AGREGATE FUNCTIONS 
 
 -- UCASE() IS TO CONVERT THE STRING TO UPPERCASE;
@@ -71,10 +75,19 @@ LEFT() extracts characters from the LEFT (start) of a string.
 */
 SELECT NAME  , LEFT(`JOB_DESCRIPTION`,5) FROM `EMPLOYEE`;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1db7214 (i learnt string functions and done a exercise)
 /*
 Interview one-liner 🎯
 
 LEFT() is used to extract a fixed number of characters from the beginning of a string.
+<<<<<<< HEAD
 
 */
+=======
+*/
+
+>>>>>>> 1db7214 (i learnt string functions and done a exercise)
 SELECT * FROM `EMPLOYEE`;
