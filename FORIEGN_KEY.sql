@@ -1,0 +1,53 @@
+
+USE PRACTICE;
+
+/*
+🔹 What is a Foreign Key?
+👉 Simple definition:
+
+A Foreign Key is a column (or group of columns) in one table that refers to the PRIMARY KEY of another table.
+
+📌 It is used to connect two tables and maintain data integrity.
+
+*/
+CREATE TABLE DEPARTMENT(
+    DEPARTMENT_ID  INT PRIMARY KEY,
+    DEPARTMENT_NAME VARCHAR(50) 
+);
+
+CREATE TABLE EMPLOYEE(
+    ID INT  PRIMARY KEY,
+    NAME VARCHAR(50),
+    DEPARTMENT_ID INT,
+    FOREIGN KEY (DEPARTMENT_ID) REFERENCES DEPARTMENT (DEPARTMENT_ID) -- THIS LINE  REFERS THE DEPARTMENT TABLE 
+);
+/*
+I HAD A QUESTION  WHILE LEARNING ABOUT FOREIGN KEYS WHY THERE ARE TWO DEPARTMENT_ID'S.THE FIRST DEPARTMENT_ID IS BELONGS TO THE EMPLOYEE TABLE 
+AND THE SECOND ONE IS  REFRENCES THAT REFERS THE PARENT DEPARTMENT_ID;
+
+QUESTION:
+
+CAN I DELETE THE DEPARTMENT TABLE ? 
+I CAN'T DELETE THE DEPARTMENT  TABLE BECAUSE EMPLOYEE TABLE REFER THE DEPARTMENT TABLE WITH FORIEGN KEY SO I
+CAN'T DELETE THE DEPARTMENT TABLE . IF I HAVE TO DELETE THE DEPARTMENT FIRST I SHOULD DELETE THE EMPLOYEE TABLE THEN I CAN DELETE
+THE DEPARTMENT TABLE OTHERWISE I SHOULD CUT THE LINK BETWEEN TWO TABLE  AFTER DONE THAT I CAN DELETE THE DEPARTMENT TABLE EASILY;
+
+✨ Polished interview-ready version (recommended)
+
+I cannot delete the DEPARTMENT table directly because the EMPLOYEE table references it using a foreign key. To delete the DEPARTMENT table, I must either drop the EMPLOYEE table first or remove the foreign key constraint between the two tables. Once the relationship is removed, the DEPARTMENT table can be deleted safely.
+
+This sounds clear, confident, and professional.
+*/
+
+INSERT INTO `EMPLOYEE` VALUES (
+   2,"MOHAMED SIDDIQ",4
+);
+INSERT INTO `DEPARTMENT` VALUES (
+    4,"SECURITY"
+);
+SELECT  * FROM `DEPARTMENT`;
+
+SELECT  * FROM `EMPLOYEE`;
+
+
+-- THERE IS A EXERCISE TO DO 
