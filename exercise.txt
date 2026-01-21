@@ -1,0 +1,115 @@
+🧪 SQL PRACTICE EXERCISES (BASICS → INTERMEDIATE)
+📘 Use this sample table
+CREATE TABLE EMPLOYEE (
+    ID INT PRIMARY KEY,
+    NAME VARCHAR(50),
+    JOB_DESCRIPTION VARCHAR(30),
+    SALARY INT,
+    DEPARTMENT_ID INT,
+    HIRE_DATE DATE
+);
+
+🟢 LEVEL 1 — Basics (Warm-up)
+
+1️⃣ Display all employees
+
+-- Write query
+
+
+2️⃣ Display only NAME and SALARY
+
+3️⃣ Show employees whose salary is greater than 40,000
+
+4️⃣ Find employees who are QA ENGINEER
+
+5️⃣ Show employees hired after 2020-01-01
+
+🟡 LEVEL 2 — Filtering & Sorting
+
+6️⃣ Display employees sorted by salary descending
+
+7️⃣ Show top 3 highest paid employees
+
+8️⃣ Display employees whose name starts with ‘A’
+
+9️⃣ Show employees whose salary is between 30,000 and 60,000
+
+10️⃣ Display unique job descriptions
+
+🟠 LEVEL 3 — Aggregate Functions
+
+11️⃣ Count total number of employees
+
+12️⃣ Find maximum and minimum salary
+
+13️⃣ Find average salary of employees
+
+14️⃣ Count employees in each job role
+
+15️⃣ Find total salary paid for each job role
+
+🔵 LEVEL 4 — GROUP BY & HAVING
+
+16️⃣ Show job roles having more than 2 employees
+
+17️⃣ Display departments whose average salary > 50,000
+
+18️⃣ Find job roles where total salary > 1,00,000
+
+🟣 LEVEL 5 — Date Functions
+
+19️⃣ Find employees hired in 2022
+
+20️⃣ Find employees hired in the last 2 years
+
+21️⃣ Calculate experience (in years) of each employee
+
+🔴 LEVEL 6 — Thinking Questions (INTERVIEW TYPE)
+
+22️⃣ Update salary by 10% for SOFTWARE ENGINEER
+
+23️⃣ Delete employees whose salary is less than 25,000
+
+24️⃣ Find the second highest salary
+
+25️⃣ Show employees ordered by custom job priority:
+
+MANAGER → ENGINEER → QA → INTERN
+
+🎯 Challenge Mode (Optional)
+
+26️⃣ Display employees hired on Monday
+
+27️⃣ Find department with highest total salary
+
+28️⃣ Find employees whose name length is more than 5
+
+✅ How to practice properly (IMPORTANT)
+
+✔ First write SELECT before UPDATE/DELETE
+✔ Run queries one by one
+✔ If stuck → think in steps:
+
+Filter rows (WHERE)
+
+Group data (GROUP BY)
+
+Filter groups (HAVING)
+
+Sort (ORDER BY)
+
+🧠 When you finish these exercises
+
+You will be confident in:
+
+SELECT, WHERE, ORDER BY
+
+GROUP BY & HAVING
+
+Aggregate functions
+
+Date functions
+
+UPDATE & DELETE
+
+Custom ORDER BY
