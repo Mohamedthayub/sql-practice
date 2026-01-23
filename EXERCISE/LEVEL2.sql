@@ -16,6 +16,10 @@ USE PRACTICE;
 SELECT * FROM `EMPLOYEE`
 ORDER BY `SALARY` DESC;
 
+-- 7️⃣ Show top 3 highest paid employees
+SELECT  * FROM `EMPLOYEE`
+ORDER BY  `SALARY` DESC
+LIMIT 3;
 
 -- 8️⃣ Display employees whose name starts with ‘A’
 SELECT * FROM `EMPLOYEE`
@@ -29,4 +33,3 @@ WHERE `SALARY` > 30000 AND `SALARY` <  90000;
 -- 10️⃣ Display unique job descriptions
 SELECT DISTINCT `JOB_DESCRIPTION` FROM `EMPLOYEE`;
 
-SELECT * FROM `EMPLOYEE`;
