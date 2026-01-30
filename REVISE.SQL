@@ -14,4 +14,4 @@ SELECT  * FROM `EMPLOYEE`
 WHERE `HIRE_DATE` > CURDATE() - INTERVAL 2 YEAR;
 
 --21️⃣ Calculate experience (in years) of each employee
-
+SELECT DATEDIFF(HIRE_DATE - CURDATE()) FROM `EMPLOYEE`;

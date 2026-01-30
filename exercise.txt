@@ -66,11 +66,11 @@ CREATE TABLE EMPLOYEE (
 
 🔴 LEVEL 6 — Thinking Questions (INTERVIEW TYPE)
 
-22️⃣ Update salary by 10% for SOFTWARE ENGINEER
 
 23️⃣ Delete employees whose salary is less than 25,000
 
 24️⃣ Find the second highest salary
+22️⃣ Update salary by 10% for SOFTWARE ENGINEER
 
 25️⃣ Show employees ordered by custom job priority:
 
