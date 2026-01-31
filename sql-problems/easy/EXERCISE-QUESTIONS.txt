@@ -1,0 +1,12 @@
+🟢 EASY LEVEL (Basics & Confidence)
+
+1️⃣ Display all employees
+2️⃣ Show only employee names and salaries
+3️⃣ Find employees with salary greater than 40,000
+4️⃣ Show employees working as Software Engineer
+5️⃣ Display employees hired after 2021-01-01
+6️⃣ Sort employees by salary in ascending order
+7️⃣ Show top 5 highest paid employees
+8️⃣ Display unique job descriptions
+9️⃣ Find employees whose name starts with 'S'
+🔟 Count total number of employees
