@@ -1,0 +1,7 @@
+USE PRACTICE;
+
+-- 3️⃣ Display departments having more than 3 employees
+
+SELECT COUNT(*), `JOB_DESCRIPTION` AS TOTAL_EMPLOYEE FROM `EMPLOYEE`
+GROUP BY `JOB_DESCRIPTION` 
+HAVING  COUNT(*) >= 3;

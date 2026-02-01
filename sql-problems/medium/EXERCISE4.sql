@@ -1,0 +1,6 @@
+USE PRACTICE;
+
+-- 4️⃣ Show average salary for each job role
+
+SELECT AVG(SALARY) ,`JOB_DESCRIPTION` AS JOB_ROLE FROM `EMPLOYEE`
+GROUP BY `JOB_DESCRIPTION`;

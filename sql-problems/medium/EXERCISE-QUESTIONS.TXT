@@ -1,0 +1,5 @@
+1️⃣ Count employees in each job role
+2️⃣ Find total salary paid for each department
+3️⃣ Display departments having more than 3 employees
+4️⃣ Show average salary for each job role
+5️⃣ Find employees hired in the last 3 years
