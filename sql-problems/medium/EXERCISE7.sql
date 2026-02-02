@@ -1,0 +1,8 @@
+USE PRACTICE;
+
+
+-- 7️⃣ Show job roles with total salary greater than 100,000
+
+SELECT SUM(`SALARY`),`JOB_DESCRIPTION` FROM `EMPLOYEE`
+GROUP BY `JOB_DESCRIPTION`
+HAVING SUM(`SALARY`) > 100000;

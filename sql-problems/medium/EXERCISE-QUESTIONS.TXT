@@ -3,3 +3,8 @@
 3️⃣ Display departments having more than 3 employees
 4️⃣ Show average salary for each job role
 5️⃣ Find employees hired in the last 3 years
+6️⃣ Display employees whose salary is above the average salary
+7️⃣ Show job roles with total salary greater than 100,000
+8️⃣ Find the second highest salary
+9️⃣ Display employees without a department
+🔟 Show departments with no employees
