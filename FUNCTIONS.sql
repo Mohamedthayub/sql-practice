@@ -40,11 +40,8 @@ SELECT MAX(`SALARY`) FROM `EMPLOYEE`;
 -- TO CALCULATE MINIMUM SALARY;
 SELECT MIN(`SALARY`) FROM `EMPLOYEE`;
 
-<<<<<<< HEAD
 
-=======
  
->>>>>>> 1db7214 (i learnt string functions and done a exercise)
 -- STRING AGREGATE FUNCTIONS 
 
 -- UCASE() IS TO CONVERT THE STRING TO UPPERCASE;

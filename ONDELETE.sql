@@ -3,7 +3,6 @@ USE PRACTICE;
 SHOW TABLES;
 
 /*
-
 🔥 Behavior comparison
 Action	What happens
 RESTRICT	❌ Delete blocked
