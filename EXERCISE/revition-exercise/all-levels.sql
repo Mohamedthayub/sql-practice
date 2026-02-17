@@ -83,3 +83,25 @@ SELECT SUM(SALARY),`JOB_DESCRIPTION` FROM `EMPLOYEE`
 GROUP BY  `JOB_DESCRIPTION`
 HAVING SUM(`SALARY`) > 100000;
 -- 18️⃣ Find job roles where total salary > 1,00,000
+
+
+
+-- LEVEL 5;
+
+SELECT * FROM `EMPLOYEE`
+WHERE YEAR(`HIRE_DATE`)  = 2022;
+-- 19️⃣ Find employees hired in 2022
+
+SELECT * FROM `EMPLOYEE`
+WHERE  `HIRE_DATE`  >= (CURDATE() - INTERVAL 2 YEAR);
+-- 20️⃣ Find employees hired in the last 2 years
+
+SELECT 
+    ID,
+    NAME,
+    TIMESTAMPDIFF(YEAR, HIRE_DATE, CURDATE()) AS EXPERIENCE_YEARS
+FROM EMPLOYEE;
+
+-- 21️⃣ Calculate experience (in years) of each employee
+
+
