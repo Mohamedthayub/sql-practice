@@ -1,0 +1,16 @@
+Data types 
+if you want to store character use these two
+
+Character => char(5), varchar(100);
+
+numeric => int, decimal(5,2) 999.99 this is maximum limit
+memory 
+------
+char -> 255 bytes
+
+varchar -> 65535 bytes
+
+-- this is single comment 
+
+/* this is multi line comment 
+*/
