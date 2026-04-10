@@ -89,3 +89,20 @@ HAVING COUNT(*) > 1;
 SELECT JOB_DESCRIPTION,AVG(SALARY) FROM `EMPLOYEE`
 GROUP BY `JOB_DESCRIPTION` 
 HAVING AVG(`SALARY`) > 60000;
+
+--LEVEL6 
+
+-- 27️⃣ Change role of a specific employee
+UPDATE `EMPLOYEE` SET `JOB_DESCRIPTION` = 'QA Engineer' WHERE `JOB_DESCRIPTION` = 'Data Analyst';
+
+-- 28️⃣ Delete employees with salary < 35000
+DELETE FROM `EMPLOYEE` WHERE `SALARY`  < 30000;
+
+-- 25️⃣ Increase salary by 10% for all employees
+UPDATE EMPLOYEE
+SET SALARY = SALARY * 1.10;
+
+-- 26️⃣ Increase salary by 5000 for employees with role 'QA Engineer'
+UPDATE  `EMPLOYEE`  SET  SALARY = `SALARY` +  5000  WHERE `JOB_DESCRIPTION` = 'QA Engineer'
+
+
