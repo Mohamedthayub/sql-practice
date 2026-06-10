@@ -35,4 +35,8 @@ FROM EMPLOYEE FULL JOIN `BRANCH` ON EMPLOYEE.BRANCH_ID  = BRANCH.`BRANCH_ID`;
 🔥 4. FULL JOIN (Less used)
 👉 Returns everything from both tables
 */
+
 DESCRIBE EMPLOYEE;
+DESCRIBE BRANCH;
+
+
