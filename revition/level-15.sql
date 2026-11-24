@@ -28,4 +28,5 @@ select category,sum(stock) from products
 group by category having sum(stock) > 30;
 
 
-select brand,avg(rating) from products group by brand having avg(rating) > 4.3;
+select brand,avg(rating) from products 
+group by brand having avg(rating) > 4.3;
